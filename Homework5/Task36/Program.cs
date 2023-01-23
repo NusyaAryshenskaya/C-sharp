@@ -1,6 +1,7 @@
 ﻿using static System.Console;
 Clear();
 
+WriteLine("Массив случайных  чисел:  ");
 int[] array = GetArray(6);
 int sum = SumOddIndex(array);
 WriteLine($"[{String.Join(", ", array)}] -> {sum}");
